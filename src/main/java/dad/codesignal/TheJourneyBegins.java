@@ -20,14 +20,14 @@ public class TheJourneyBegins {
 		}
 		return siglo;
 	}
-	
-	public boolean checkPalindrome(String word){
-		int i = 0, j = word.length()-1;
-		
-		while(j >= 0 && i < word.length()-1 && word.charAt(i) == word.charAt(j)) {
+
+	public boolean checkPalindrome(String word) {
+		int i = 0, j = word.length() - 1;
+
+		while (j >= 0 && i < word.length() - 1 && word.charAt(i) == word.charAt(j)) {
 			i++;
 			j--;
-		}		
+		}
 		return word.charAt(i) == word.charAt(j);
 	}
 }
