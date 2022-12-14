@@ -2,4 +2,4 @@
 
 Soluciones de los ejercicios de CodeSignal
 
-Actualizado el 22/09/2022
+Actualizado el 14/12/2022
